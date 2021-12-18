@@ -339,7 +339,7 @@ class SparseDepthWaveProgressiveDecoder(nn.Module):
                 upconv1_idxmap, ops = mask2idxmap(upconv1_mask)
                 scale_ops += ops
 
-                print('sparse:', i)
+                # print('sparse:', i)
                 assert self.use_skips and i > 0
                 assert 'yl' in locals()
 
